@@ -1,0 +1,301 @@
+*{
+	margin:0;
+	text-decoration:none;
+	list-style:none;
+	box-sizing: border-box;
+}
+
+.header-container {
+	background-image:url("https://wallpapercosmos.com/w/full/f/a/a/423-3840x2160-desktop-4k-call-of-duty-wallpaper.jpg");
+	width:100%;
+	height:550px;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+.image-text-headers{
+	display:flex;
+	background-color:#000;
+	justify-content:space-between;
+	border-bottom:1px solid #fff;
+	opacity:.9;
+	color:#fff;
+	height:60px;
+}
+
+.image-headers{
+	display:flex;
+	gap:30px;
+}
+
+.image-headers img{
+	width:140px;
+}
+
+.image-headers ul{
+	display:flex;
+	gap:30px;
+	align-items:center;
+}
+
+.image-headers ul li a{
+	color:#fff;
+	
+}
+
+.text-headers{
+	display:flex;
+	gap:30px;
+	align-items:center;
+	padding-right:10px
+}
+.text-headers h4 a{
+	color:#fff;
+}
+
+.text-headers p{
+	padding:0px 6px;
+	background:#fff;
+	color:black;
+	border-radius:5px;
+}
+.text-headers p:hover{
+	border:6px solid #d63031;
+}
+
+.images-texts-header{
+	display:flex;
+	height:50px;
+	background:#000;
+	opacity:.9;
+	gap:40px;
+	align-items:center;
+}
+
+.images-texts-header img{
+	width:25px;
+	height:25px;
+}
+
+
+.images-texts-header ul {
+	display:flex;
+	gap:20px;
+}
+
+
+.images-texts-header ul li a{
+	color:#fff;
+}
+
+.image-wrapper img{
+	width:300px;
+	display:flex;
+    padding:60px 0 0 100px;
+}
+
+
+.image-wrapper h2{
+	color:#fbc531;
+	font-family: 'Nosifer', sans-serif;
+	text-shadow:2px 2px 3px #000;
+	padding:8px 100
+}
+
+.playstore-ios {
+    padding:10 10 10 100;
+	display:flex;
+	gap:30px;
+}
+
+.apple-wrapper{
+	width:199px;
+	height:60px;	
+	background:#000;
+	color:#fff;
+	border-radius:6px;
+	border:1px solid #fff;
+	display:flex;
+	align-items:center;
+}
+
+.apple-wrapper .class1 a {
+	color:#fff;
+}
+
+.apple-wrapper .class1 {
+	font-size:40px;
+	padding:10px;	
+}
+
+.apple-wrapper .class2 p{
+	font-size:20px;
+}
+
+.playstore-wrapper{
+	width:199px;
+	height:60px;	
+	background:#000;
+	color:#fff;
+	border-radius:6px;
+	border:1px solid #fff;
+	display:flex;
+	align-items:center;
+	padding:0 8 0 5;
+}
+
+.playstore-wrapper .class1 a img {
+	width:50px;		
+}
+
+.playstore-wrapper .class2 p {
+	font-size:20px;
+}
+
+.playstore-wrapper .class2 h3 {
+	font-size:20px;
+}
+
+.header-container-last-div{
+	width:160px;
+	height:20px;
+	background:#fff200;
+	padding: 10px 0 10 15;
+	margin:15 0 0 220;
+}
+
+.about-class{
+	height:160px;
+	background:#000;
+	color:#fff;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;	
+}
+
+.about-class h1{
+	color:#fff200;
+}
+
+.about-class p{
+	font-size:18px;
+}
+
+.images-container{
+	width:100%;
+	display:flex;
+}
+
+.images-wrapper{
+	background-image:url("https://blog.activision.com/content/dam/atvi/activision/atvi-touchui/blog/callofduty/feature/CODM-Progression-TOUT.jpg");
+	height:280px;
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:50%;
+}
+
+.red-wrapper{
+	padding:200px 0 0 20px;
+}
+
+.red-wrapper p{
+	font-size:20px;
+	color:#fff;
+	text-shadow:2px 2px 1px #000;
+}
+
+.red-wrapper h2{
+	color:#fff200;
+	text-shadow:2px 2px 3px #000;
+}
+
+.images-wrapper-2{
+	background-image:url("https://www.gamepur.com/wp-content/uploads/2021/09/18101840/Call-of-Duty-Mobile-all-legendary-weapons-guide-feat-1.jpg?w=1200");
+    height:280px;
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:50%;
+}
+
+.red-wrapper-2{
+	padding:200px 0 0 20px;
+}
+
+.red-wrapper-2 p{
+	font-size:20px;
+	color:#fff;
+	text-shadow:2px 2px 3px #000;
+}
+
+.red-wrapper-2 h2{
+	color:#fff200;
+	text-shadow:2px 2px 3px #000;
+}
+.about-class-3{
+	height:160px;
+	background:#000;
+	color:#fff;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;	
+}
+
+.about-class-3 h1{
+	color:#fff200;
+}
+
+.about-class-3 p{
+    font-size:22px;
+}
+
+.images-wrapper-freefire{
+	background-image:url("https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mobile/home/multiplayermaps/maps-firing-range.jpg");
+	width:100%;
+	height:500px;
+	background-size:100%;
+}
+
+.images-wrapper-freefire h1{
+	color:#fff200;
+	padding:440px 0 0 12px;
+    text-shadow:2px 2px 1px #000;
+}
+
+.about-class-hover{
+	height:160px;
+	background:#000;
+	color:#fff;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;	
+}
+
+.about-class-hover h1{
+	color:#fff200;
+}
+
+.about-class-hover p{
+	font-size:22px;
+}
+
+.images-container-character{
+	width:100%;
+	display:flex;
+}
+
+.images-container-character div{
+	width:20%;
+	//width:350px;
+}
+
+.images-container-character div img{
+  width:100%;
+  height:350px;
+}
+.images-container-character div img:hover{
+  width:125%;
+  height:450px;
+}
